@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/amangupta89520/TextUtils/static/css/main.9311cd49.chunk.css",
+    "main.js": "/amangupta89520/TextUtils/static/js/main.8c6fac39.chunk.js",
+    "main.js.map": "/amangupta89520/TextUtils/static/js/main.8c6fac39.chunk.js.map",
+    "runtime-main.js": "/amangupta89520/TextUtils/static/js/runtime-main.0aa36794.js",
+    "runtime-main.js.map": "/amangupta89520/TextUtils/static/js/runtime-main.0aa36794.js.map",
+    "static/js/2.11c56a0c.chunk.js": "/amangupta89520/TextUtils/static/js/2.11c56a0c.chunk.js",
+    "static/js/2.11c56a0c.chunk.js.map": "/amangupta89520/TextUtils/static/js/2.11c56a0c.chunk.js.map",
+    "static/js/3.bc792fbe.chunk.js": "/amangupta89520/TextUtils/static/js/3.bc792fbe.chunk.js",
+    "static/js/3.bc792fbe.chunk.js.map": "/amangupta89520/TextUtils/static/js/3.bc792fbe.chunk.js.map",
+    "index.html": "/amangupta89520/TextUtils/index.html",
+    "static/css/main.9311cd49.chunk.css.map": "/amangupta89520/TextUtils/static/css/main.9311cd49.chunk.css.map",
+    "static/js/2.11c56a0c.chunk.js.LICENSE.txt": "/amangupta89520/TextUtils/static/js/2.11c56a0c.chunk.js.LICENSE.txt",
+    "static/media/profile.183cc9c8.jpg": "/amangupta89520/TextUtils/static/media/profile.183cc9c8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0aa36794.js",
+    "static/js/2.11c56a0c.chunk.js",
+    "static/css/main.9311cd49.chunk.css",
+    "static/js/main.8c6fac39.chunk.js"
+  ]
+}
