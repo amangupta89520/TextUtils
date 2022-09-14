@@ -44,7 +44,9 @@ function App() {
         <BrowserRouter>
           <Navbar title='TextUtils' toggleMode={toggleMode} />
           <ColorPallete themeColors={themeColors} toggleThemeColor={toggleThemeColor} />
-          {showAlert && <Alert content={showAlert} />}
+          <div style={{height: '60px'}}>
+            {showAlert && <Alert content={showAlert} />}
+          </div>
           <Routes>
               <Route path='/' element={<TextForm heading='Enter your text to analyze' fireAlert={fireAlert} />} />
               <Route path='/about' element={<About />} />

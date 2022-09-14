@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
 export const StyledTextForm = styled.div`
-    margin-top: 80px;
+    margin-top: 15px;
     .content > .top {
         width: 100%;
         margin-bottom: 20px;
         height: 50px;
+        @media(max-width: 768px) {
+            flex-direction: column;
+            height: 80px;
+        }
     }
     textarea {
         width: 100%;
@@ -27,6 +31,7 @@ export const StyledTextForm = styled.div`
 
 export const StyledTextSummary = styled.div`
     margin-top: 40px;
+    padding-bottom: 40px;
     ul {
         margin-top: 30px;
         list-style-type: none;

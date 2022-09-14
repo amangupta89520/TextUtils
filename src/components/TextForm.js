@@ -56,7 +56,7 @@ const TextForm = ({ heading, fireAlert }) => {
                 <Flex flexDirection='column' alignItems='flex-start' className="content">
                     <Flex justifyContent='space-between' className="top">
                         <h2>{heading}</h2>
-                        <Flex columnGap="14px">
+                        <Flex columnGap="14px" rowGap="14px">
                             {text.trim() && <StyledButton onClick={() => setText('')}>Clear Text</StyledButton>}
                             {text.trim() && <CopyToClipboard text={text} onCopy={handleCopy}>
                                 <StyledButton disabled={text.trim().length > 0? false : true}>Copy Text</StyledButton>
@@ -76,7 +76,7 @@ const TextForm = ({ heading, fireAlert }) => {
                     <h2>Your text summary</h2>
                     <ul>
                         <li><b>No. of Characters (including spaces): </b>{text.trim().length}</li>
-                        <li><b>No. of Words: </b>{text.trim()? text.trim().split(' ').length : 0}</li>
+                        <li><b>No. of Words: </b>{text.trim()? text.trim().split(/\s+/).length : 0}</li>
                         <li>{text.trim()? Math.round((text.trim().split(' ').length * 0.25) / 60) : 0} <b>Minutes read</b></li>
                     </ul>
                 </Flex>

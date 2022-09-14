@@ -7,11 +7,13 @@ const Alert = ({ content }) => {
 
     return (
         <>
-            <StyledAlert>
-                <Flex justifyContent="flex-start">
-                    <span>{content}</span>
-                </Flex>
-            </StyledAlert>
+            <Flex>
+                <StyledAlert>
+                    <Flex justifyContent="flex-start">
+                        <span>{content}</span>
+                    </Flex>
+                </StyledAlert>
+            </Flex> 
         </>
     );
 }

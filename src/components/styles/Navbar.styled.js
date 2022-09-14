@@ -8,6 +8,7 @@ export const StyledNav = styled.nav`
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 10;
 
     img {
         margin-left: auto;

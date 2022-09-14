@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const StyledColorPallete = styled.div`
-
     & > div {
-        padding-top: 15px;
+        padding: 15px;
         .color {
             width: 20px;
             height: 20px;
